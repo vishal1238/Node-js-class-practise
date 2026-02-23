@@ -1,6 +1,5 @@
-
 import express from "express";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 const app = express();
 app.use(express.json());
 app.listen(8080);
