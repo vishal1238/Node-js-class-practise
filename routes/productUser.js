@@ -1,5 +1,9 @@
-productUser.post("/",(req, res) => {
-    res.send("This is get request of Product User")
+import express from "express"
+
+const productUser = express.Router()
+
+productUser.post("/", (req, res) => {
+    res.send("Product route working")
 })
 
-export default router
+export default productUser
