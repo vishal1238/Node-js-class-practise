@@ -6,7 +6,7 @@ app.set("view engine", "ejs")
 const products = [
     { id: 1, name: "Product 1", price: 23 },
     { id: 2, name: "Product 2", price: 43 },
-    { id: 3, name: "Product 3", pfrice: 34 }
+    { id: 3, name: "Product 3", price: 34 }
 ];
 
 app.get("/", (req, res) => {
