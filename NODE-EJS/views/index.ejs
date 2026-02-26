@@ -6,8 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-    Hello <% products.forEach(product => { %>
-    <div><%= product.name %>></div>
-    %> <% }) %>
+    <h1>Product Admin Interface</h1>
+    <p><a href="/add">Add Product</a></p>
+    <ol>
+      <li>
+
+        <% products.forEach(product => { %>
+       <div><%= product.name %>></div>
+       <div><%= product.descirption %>></div>
+       <div><%= product.price %></div>
+       
+       %> <% }) %>
+      </li>
+    </ol>
   </body>
 </html>
